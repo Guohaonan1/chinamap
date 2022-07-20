@@ -1,3 +1,11 @@
+### 起因
+
+在echarts5版本中没有china.js,不能正常使用中国地图
+
+echarts5 移除了内置的 geoJSON（原先在 echarts/map 文件夹下），如果使用者仍然需要他们，可以去从老版本中得到（下载文件中的map文件，引入本地），或者自己寻找更合适的数据然后通过 registerMap 接口注册到 ECharts 中
+
+### 老版本
+
 echarts地图版本号：4.2.1-rc1
 
 包含世界地图，中国地图和各省市、自治区地图
@@ -27,3 +35,8 @@ echarts地图版本号：4.2.1-rc1
       ...
     </script>
     ```
+
+### 另附
+
+aliyun定制地图：
+[http://datav.aliyun.com/portal/school/atlas/area_selector](http://datav.aliyun.com/portal/school/atlas/area_selector)
